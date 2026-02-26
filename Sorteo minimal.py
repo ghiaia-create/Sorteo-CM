@@ -31,7 +31,7 @@ st.markdown("""
 # -------------------------
 st.markdown("""
 <div style="padding-bottom:1.5rem;border-bottom:1px solid #e5e7eb;margin-bottom:2rem;">
-    <h1 style="margin:0;">Sistema de Sorteo de Plazas</h1>
+    <h1 style="margin:0;">Sorteo de Plazas Carlos Marx 1-3</h1>
     <p style="margin:0;color:#6b7280;">Alba Fons. 2026</p>
 </div>
 """, unsafe_allow_html=True)
