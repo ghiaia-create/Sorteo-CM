@@ -10,7 +10,7 @@ from datetime import datetime
 # CONFIGURACIÓN PÁGINA
 # -------------------------
 st.set_page_config(
-    page_title="Sistema de Sorteo de Plazas",
+    page_title="Sorteo de Plazas Carlos Marx 1-3",
     layout="centered"
 )
 
@@ -32,7 +32,7 @@ st.markdown("""
 st.markdown("""
 <div style="padding-bottom:1.5rem;border-bottom:1px solid #e5e7eb;margin-bottom:2rem;">
     <h1 style="margin:0;">Sistema de Sorteo de Plazas</h1>
-    <p style="margin:0;color:#6b7280;">Gestión y asignación de plazas de bicicleta</p>
+    <p style="margin:0;color:#6b7280;">Alba Fons. 2026</p>
 </div>
 """, unsafe_allow_html=True)
 
