@@ -1,10 +1,16 @@
 import streamlit as st
 import pandas as pd
 import random
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
-from io import BytesIO
-from datetime import datetime
+import subprocess
+import sys
+
+try:
+    from reportlab.lib.pagesizes import letter
+    from reportlab.pdfgen import canvas
+except:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "reportlab"])
+    from reportlab.lib.pagesizes import letter
+    from reportlab.pdfgen import canvas
 
 st.set_page_config(
     page_title="Sorteo de Plazas Carlos Marx 1-3",
