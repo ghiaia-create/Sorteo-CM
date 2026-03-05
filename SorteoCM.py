@@ -1,14 +1,6 @@
 import streamlit as st
 import pandas as pd
 import random
-import subprocess
-import sys
-
-try:
-    from reportlab.lib.pagesizes import letter
-    from reportlab.pdfgen import canvas
-except:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "reportlab"])
     from reportlab.lib.pagesizes import letter
     from reportlab.pdfgen import canvas
 
